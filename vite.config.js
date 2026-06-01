@@ -10,5 +10,11 @@ export default {
   server: {
     open: true,
   },
-  base: '/betronic/'
+  base: '/betronic/',
+  rollupOptions: {
+    output: {
+      entryFileNames: 'assets/main-DusVq9nQ.js',
+      assetFileNames: 'assets/main-1sxEUpAq.css',
+    }
+  }
 }
